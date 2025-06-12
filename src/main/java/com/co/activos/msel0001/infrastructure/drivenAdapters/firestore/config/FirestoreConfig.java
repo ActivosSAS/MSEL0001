@@ -31,5 +31,9 @@ public class FirestoreConfig {
 
         // Devuelve la instancia de Firestore
         return firestoreOptions.getService();
+
+            // Usa las credenciales definidas en GOOGLE_APPLICATION_CREDENTIALS
+           // return FirestoreOptions.getDefaultInstance().getService();
+
     }
 }
